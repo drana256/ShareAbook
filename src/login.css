@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(
+    rgba(0, 0, 0, 0.01), 
+    rgba(0, 0, 0, 0.01)
+    ),
+    url("image/bg.jpg");;
+}
+.outerBox {
+    height: 100vh;
+    /* background: #f1f1f1; */
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 6px 0px #a5a5a5;
+    border-radius: 5px;
+    
+}
+.innerBox {
+    background: #ffffff;
+    box-shadow: 0px 0px 6px 0px #a5a5a5;
+    border-radius: 5px;
+    padding: 80px 40px;
+    font-size: 22px;
+    width: 500px;
+}
+.title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.text-muted{
+    font-size: 14px;   
+}
+.loginBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.signUpBtnContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+}
+
